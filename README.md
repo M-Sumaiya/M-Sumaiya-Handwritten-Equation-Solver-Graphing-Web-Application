@@ -28,16 +28,4 @@ This project is a web-based application that detects handwritten **algebraic equ
 1. **Input:** User draws/writes an equation on a digital canvas  
 2. **Recognition:** Image is processed and passed to CNN  
 3. **Solution:** Parsed using SymPy to solve the equation  
-4. **Graphing:** Solution and its graph are displayed instantly  
-
-## 📁 Project Structure
-
-handwritten-equation-solver/
-│
-├── model/ # Trained CNN model
-├── static/ # CSS, JS files
-├── templates/ # HTML templates
-├── app.py # Main Flask app
-├── utils.py # Helper functions (equation parsing, preprocessing)
-├── requirements.txt
-└── README.md
+4. **Graphing:** Solution and its graph are displayed instantly 
